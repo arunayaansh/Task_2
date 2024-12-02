@@ -13,3 +13,8 @@ int age;
         Kavin.displayInfo();
     }
 }
+
+
+/* output:
+Name: Arun, Age: 25
+Name: Kavin, Age: 25 */
