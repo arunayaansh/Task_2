@@ -1,0 +1,20 @@
+package Task2;
+
+//Note for this I used the same person class 1.1 Person
+
+public class Employee extends Person{
+    private int employeeID;
+    private double salary;
+
+
+    public Employee(String name, int age, int employeeID, double salary) {
+        super(name, age);
+        this.employeeID = employeeID;
+        this.salary = salary;
+    }
+
+    public void displayEmployeeInfo() {
+        super.displayInfo();
+        System.out.println("Employee ID: " + employeeID + ", Salary: " + salary);
+    }
+}
