@@ -1,0 +1,15 @@
+public class PersonTest {
+
+String name;
+int age;
+
+
+    public static void main(String[] args) {
+
+        Person Arun = new Person("Arun", 25);
+        Arun.displayInfo();
+
+        Person Kavin = new Person("Kavin", 25);
+        Kavin.displayInfo();
+    }
+}
