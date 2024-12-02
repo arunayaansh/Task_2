@@ -6,3 +6,9 @@ public class EmployeeTest {
         employee.displayEmployeeInfo();
     }
 }
+
+
+/* Output:
+Name: Arun, Age: 24
+Employee ID: 1234, Salary: 30000.0
+ */
