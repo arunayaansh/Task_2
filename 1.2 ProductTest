@@ -42,7 +42,31 @@ public class ProductTest {
         double totalAmount = xyz.calculateTotalAmount(products);
         System.out.println("Total amount spent on all products: " + totalAmount);
 
-        scanner.close();
     }
 
 }
+
+/* Output:
+Enter details for product 1:
+Product ID: 1
+Price: 800
+Quantity: 1
+Enter details for product 2:
+Product ID: 2
+Price: 550
+Quantity: 2
+Enter details for product 3:
+Product ID: 3
+Price: 1050
+Quantity: 1
+Enter details for product 4:
+Product ID: 4
+Price: 200
+Quantity: 2
+Enter details for product 5:
+Product ID: 5
+Price: 55
+Quantity: 4
+Product with the highest price has PID: 3
+Total amount spent on all products: 3570.0
+ */
