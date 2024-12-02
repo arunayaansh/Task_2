@@ -1,0 +1,8 @@
+package Task2;
+
+public class EmployeeTest {
+    public static void main(String[] args) {
+        Employee employee = new Employee("Arun", 24, 1234, 30000);
+        employee.displayEmployeeInfo();
+    }
+}
