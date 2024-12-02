@@ -7,7 +7,7 @@ public class EmployeeTest {
     }
 }
 
-
+//Note: Here I used the same person class 1.1
 /* Output:
 Name: Arun, Age: 24
 Employee ID: 1234, Salary: 30000.0
