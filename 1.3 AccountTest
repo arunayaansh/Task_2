@@ -17,3 +17,14 @@ public class AccountTest {
     }
 
 }
+
+/* Output:
+Deposited: 1000.0
+Withdrawn: 200.0
+Balance: 800.0
+
+Account ID: 12345
+Deposited: 800.0
+Withdrawn: 300.0
+Balance: 1500.0
+ */
